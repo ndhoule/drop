@@ -1,9 +1,5 @@
 'use strict';
 
-/**
- * Math.max reference.
- */
-
 var max = Math.max;
 
 /**
@@ -21,7 +17,6 @@ var max = Math.max;
  * drop(3, [1, 2, 3]); // => []
  * drop(4, [1, 2, 3]); // => []
  */
-
 var drop = function drop(count, collection) {
   var length = collection ? collection.length : 0;
 
@@ -43,7 +38,7 @@ var drop = function drop(count, collection) {
   return results;
 };
 
-/**
+/*
  * Exports.
  */
 
